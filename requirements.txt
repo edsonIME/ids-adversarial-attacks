@@ -1,0 +1,14 @@
+# Minimal dependencies to run the four adversarial-attack notebooks.
+# This file intentionally includes only the main packages required for execution,
+# rather than the full output of pip freeze.
+
+tensorflow==2.19.0
+numpy==2.1.3
+pandas==2.3.1
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+
+# Jupyter environment for running the notebooks
+jupyter==1.1.1
+notebook==7.3.3
+ipykernel==6.29.5
